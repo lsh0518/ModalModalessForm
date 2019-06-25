@@ -11,14 +11,13 @@ namespace ModalModalessForm
 {
     public partial class FormAbout : Form
     {
-        public FormAbout()
+        public string Title
+        {
+            set { this.Text = value; }
+        }
+    public FormAbout()
         {
             InitializeComponent();
-        }
-
-        private void Label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
